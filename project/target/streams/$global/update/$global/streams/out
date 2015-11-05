@@ -1,4 +1,4 @@
-[info] Updating {file:/afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/}question3-build...
+[info] Updating {file:/C:/Users/work/Desktop/Question3/project/}question3-build...
 [debug] :: resolving dependencies :: default#question3-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#question3-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#question3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18be562f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e840dd2
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 646ms :: artifacts dl 20ms
-[debug] 	report for default#question3-build;0.1-SNAPSHOT compile produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-compile.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT runtime produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-runtime.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT test produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-test.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT provided produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-provided.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT optional produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-optional.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT compile-internal produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-compile-internal.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT runtime-internal produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-runtime-internal.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT test-internal produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-test-internal.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT plugin produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-plugin.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT sources produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-sources.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT docs produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-docs.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT pom produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-pom.xml
-[debug] 	report for default#question3-build;0.1-SNAPSHOT scala-tool produced in /afs/cs.wisc.edu/u/z/h/zhichenggu/cloud/assignment3/Question3/project/target/resolution-cache/reports/default-question3-build-scala-tool.xml
-[debug] 	resolve done (646ms resolve - 20ms download)
+[debug] :: resolution report :: resolve 2296ms :: artifacts dl 101ms
+[debug] 	report for default#question3-build;0.1-SNAPSHOT compile produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-compile.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT runtime produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-runtime.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT test produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-test.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT provided produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-provided.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT optional produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-optional.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT compile-internal produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-compile-internal.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-runtime-internal.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT test-internal produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-test-internal.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT plugin produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-plugin.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT sources produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-sources.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT docs produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-docs.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT pom produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-pom.xml
+[debug] 	report for default#question3-build;0.1-SNAPSHOT scala-tool produced in C:\Users\work\Desktop\Question3\project\target\resolution-cache\reports\default-question3-build-scala-tool.xml
+[debug] 	resolve done (2296ms resolve - 101ms download)
 [info] Done updating.
