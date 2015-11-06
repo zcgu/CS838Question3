@@ -10,7 +10,10 @@ import scala.io.Source
 
 class test2 {
   def main(args: Array[String]): Unit = {
-
+    
+    //?
+    val sc: SparkContext 
+    
     //read
     val length = Source.fromFile("QuestionA2_countdata_1").getLines().length
     val linesarray = new Array[String](length)
