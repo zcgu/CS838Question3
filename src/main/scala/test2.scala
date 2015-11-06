@@ -11,10 +11,11 @@ import SparkContext._
 import scala.util.control.Breaks._
 
 class test2 {
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String])= {
     
-    //?
-    val sc: SparkContext 
+    //
+    val conf = new SparkConf().setAppName("test2").setMaster("spark://10.0.1.105:7077")
+    val sc = new SparkContext(conf)
     
     //read
     val length = Source.fromFile("QuestionA2_countdata_1").getLines().length
@@ -80,8 +81,11 @@ class test2 {
     Q3res.collect.foreach(println)
 
     //Q4
-   
+    val wc = terms.flatMap(line => line)
+    val mostPopularVertex = wc.map(word => (word, 1)).reduceByKey((a,b) => a+b).map(x => (x._2, x._1)).sortByKey(false).take(1)(0)._2 // return: String "new"
+
     // Q6
-   
+    graph.vertices.filter(v => v._2 contains mostPopularVertex).count // return: 189
+
   }
 }
