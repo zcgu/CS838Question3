@@ -81,11 +81,8 @@ class test2 {
     Q3res.collect.foreach(println)
 
     //Q4
-    val wc = terms.flatMap(line => line)
-    val mostPopularVertex = wc.map(word => (word, 1)).reduceByKey((a,b) => a+b).map(x => (x._2, x._1)).sortByKey(false).take(1)(0)._2 // return: String "new"
-
+   
     // Q6
-    graph.vertices.filter(v => v._2 contains mostPopularVertex).count // return: 189
-
+  
   }
 }
